@@ -1,0 +1,18 @@
+bin/
+obj/
+.dotnet/
+.codex_build/
+data/*.csv
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime logs and local data outputs
+*.log
+data/*.log
